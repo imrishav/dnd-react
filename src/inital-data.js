@@ -18,19 +18,19 @@ const intialData = {
       title: 'Semester 2',
       taskIds: []
     },
-    'column-3': {
-      id: 'semester 3',
-      title: 'Courses',
-      taskIds: ['task-6', 'task-5']
-    },
-     'column-4': {
+    'column-4': {
       id: 'column-4',
+      title: 'Semester 3',
+      taskIds: []
+    },
+    'column-3': {
+      id: 'column-3',
       title: 'Courses',
       taskIds: ['task-6', 'task-5']
     }
   },
 
-  columnOrder: ['column-1', 'column-2', 'column-3']
+  columnOrder: ['column-1', 'column-2', 'column-4', 'column-3']
 }
 
 export default intialData
